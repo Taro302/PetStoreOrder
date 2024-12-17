@@ -73,7 +73,7 @@ public class ValidarStep {
     // LAS SIGUIENTES LINEAS SON PARA REALIZAR CONSULTAS
 
     @Given("la orden con id {}, petId {}, quantity {} ha sido creada previamente")
-    public void realizarPeticionPOST(int orderId, int petId, int quantity) {
+    public void validarPeticionPOST(int orderId, int petId, int quantity) {
 
         String body = String.format(
                 "{\n" +
